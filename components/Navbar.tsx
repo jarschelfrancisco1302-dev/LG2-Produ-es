@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShoppingCart, Camera, LogOut, User as UserIcon, Menu } from 'lucide-react';
+import { ShoppingCart, Camera, LogOut } from 'lucide-react';
 import { User, UserRole, ViewState } from '../types';
 
 interface NavbarProps {

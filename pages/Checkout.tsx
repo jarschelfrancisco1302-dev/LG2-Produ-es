@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Trash2, Lock, ShieldCheck, Copy, CheckCircle, ArrowLeft } from 'lucide-react';
+import React, { useState } from 'react';
+import { Trash2, Lock, ShieldCheck, Copy, ArrowLeft } from 'lucide-react';
 import { CartItem, Order, User } from '../types';
 import { generatePixPayment } from '../services/pixService';
 import { PIX_KEY } from '../constants';

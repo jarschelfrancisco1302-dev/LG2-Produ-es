@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { Upload, Plus, Image as ImageIcon, Settings, DollarSign, Trash2 } from 'lucide-react';
+import { Upload, Image as ImageIcon, Settings, DollarSign, Trash2 } from 'lucide-react';
 import { Album } from '../types';
 import { MOCK_ALBUMS } from '../constants';
 

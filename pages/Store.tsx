@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Search, MapPin, Calendar, Tag, Plus, ShoppingCart, X, Camera } from 'lucide-react';
-import { Album, Photo, CartItem } from '../types';
+import { MapPin, Calendar, ShoppingCart, X, Camera } from 'lucide-react';
+import { Photo, CartItem } from '../types';
 import { MOCK_ALBUMS, generateMockPhotos } from '../constants';
 
 interface StoreProps {
